@@ -1,0 +1,21 @@
+.fixed-footer
+{
+  width: 100%;
+  position: fixed;        
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+  left: 0%;
+}
+
+.fixed-footer{
+  bottom: 0;
+  text-align: center;
+}
+
+.feed
+{
+  position: fixed;
+  bottom: 3%;
+
+}

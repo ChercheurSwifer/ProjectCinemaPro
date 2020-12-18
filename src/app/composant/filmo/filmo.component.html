@@ -1,0 +1,19 @@
+<body onload="showRandomNumber();">
+<h1 id="box1"> Les Films du Moment sur CinemaPro </h1>
+<div  class="placement" *ngFor="let item of list" style="display: inline-block">
+  <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{item.poster_path}}" alt="">
+  <a class="tuck"> <br> {{item.title  }}</a>
+  <a class="tuck"> <br>Date : {{item.release_date  }}</a>
+  <a class="tuck"> <br> Nombres de Places : {{ item.vote_count }} </a>
+  <hr>
+</div>
+
+
+<div class="semaino">
+  <p id="gogox">                07h00 - 08h30                       08h45 - 09h30                       09h45 - 11h00                        11h15 - 12h30                       14h00 - 15h30                     15h45 - 17h00                        17h15 - 18h40                        19h00 - 21h00                      21h15 - 23h30                       23h45 - 01h00</p>
+</div>
+
+<div class="sect_reserv"> 
+  <button id="tprs" routerLink="/reservo"> →→ Réservation ←← </button>
+</div>
+</body>

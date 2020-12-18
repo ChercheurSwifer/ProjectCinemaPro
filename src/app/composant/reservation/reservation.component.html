@@ -1,0 +1,16 @@
+<div class="reservation">
+
+  <form [formGroup]="reservation" (ngSubmit) ="onSubmit()">
+    <h3> Réservation </h3>
+    <label> Nom du Film :       <input type="text" formControlName="nom_film"></label>
+    <br>
+    <label> Date du Film :              <input type="date" formControlName="date_film" ></label>
+    <br>
+    <label> Heure(s):                                   <input type="time" formControlName="heure_film" ></label>
+    <br>
+    <label> Prix :                                          10.00 euros </label>
+    <br><br><br>
+    <button id="ez" type="submit"> Valider </button>
+    </form>
+
+</div>

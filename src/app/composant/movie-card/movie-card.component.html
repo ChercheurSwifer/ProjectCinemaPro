@@ -1,0 +1,17 @@
+<div class="card">
+  <br>  <br>
+  <img [src]="movie.Poster | defaultImage" class="card-img-top" [alt]="movie.Title">
+  
+	<div class="card-body">
+		<h5 class="card-title">
+      {{ movie.Title | ellipsify: 25 }}
+			<span class="badge badge-primary">{{ movie.Type | uppercase }}</span>
+    </h5>
+		<p class="card-text">
+      {{ movie.Title }} est un {{ movie.Type }} sorti en {{ movie.Year }}
+    </p>
+	</div>
+</div>
+<div class=".scroller">
+
+</div>

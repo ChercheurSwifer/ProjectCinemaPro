@@ -1,0 +1,38 @@
+.box_ytb
+{
+  position: absolute;
+  left: 3%;
+  top: 20%;
+}
+
+.tarif
+{
+  position: absolute;
+  color: white;
+  border: solid;
+  text-align: center;
+  width: 32%;
+  height: 53%;
+  background-color: cornflowerblue;
+  right: 5%;
+  top: 20%;
+}
+
+#uno
+{
+  color: red;
+  text-align: left;
+}
+
+.boki
+{
+  color: black;
+  text-align: left;
+}
+
+.feed
+{
+  position: fixed;
+  bottom: 3%;
+
+}

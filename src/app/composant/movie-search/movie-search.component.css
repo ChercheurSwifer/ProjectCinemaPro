@@ -1,0 +1,19 @@
+.container {
+  margin: 20px auto;
+}
+
+#box1
+{
+  border: solid;
+  background-color: white;
+}
+
+.scroller {
+  width: 20%;
+  height: 20%;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  position: absolute;
+  left: 45%;
+}
